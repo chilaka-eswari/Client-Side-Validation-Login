@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>LOGIN</h1>
+        <div class="email">
+            <label for="email-id">Email Id</label>
+            <input type="email" id="email-id" placeholder="Enter email" oninput="checker()">
+            <div id="icon" class="icon"></div>
+            <p id="error-msg">please enter vail email</p>
+        </div>
+        <div class="input-box">
+            <label for="password">password</label>
+            <input type="password" placeholder="password" id="password">
+            <i class="far fa-eye-slash" id="eyeicon" class="icon"></i>
+        </div>
+        <div class="submit-btn">
+        <button>SUBMIT</button>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
